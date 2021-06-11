@@ -1,12 +1,14 @@
 new Vue({
-    el:'#vue-app',
+    el:'#event-handle',
     data:{
-        name:'Santosh Rauniyar',//data members
-        roll:'20408'
+        age:10
     },
     methods:{
-        greet:function(time){
-            return "Good "+ time +'  '+ this.name;
+        add:function(){
+            return this.age++;
+        },
+        sub:function(){
+            return this.age--;
         }
     }
 });

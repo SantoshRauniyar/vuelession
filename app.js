@@ -14,14 +14,22 @@ new Vue({
 new Vue({
     el:'#event-handle',
     data:{
-        age:10
+        age:10,
+        x:0,
+        y:0
     },
     methods:{
-        add:function(){
-            return this.age++;
+        add:function(inc){
+            return this.age+=inc;
         },
-        sub:function(){
-            return this.age--;
+        sub:function(dec){
+            return this.age-=dec;
+        },
+        updateXY:function(event){
+            //console.log(event);
+            this.x=event.offsetX;
+            this.y=event.offsetY;
+
         }
     }
 });

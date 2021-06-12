@@ -1,0 +1,11 @@
+
+#canvas{
+
+	width: 600px;
+	padding: 200px 20px;
+	text-align:center;
+	border:1px solid red;
+	background-color: black;
+	color:green;
+
+}

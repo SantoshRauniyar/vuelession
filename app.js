@@ -2,7 +2,8 @@ new Vue({
     el:'#vue-app',
     data:{
         name:'Santosh Rauniyar',//data members
-        roll:'20408'
+        roll:'20408',
+        mysite:'http://www.techeracoding.in'//data binding
     },
     methods:{
         greet:function(time){

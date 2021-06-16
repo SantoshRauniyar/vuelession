@@ -12,6 +12,9 @@
             <h3>Name : {{name}}</h3>
             <h4>Roll Number {{roll}}</h4>
             <a v-bind:href=mysite>Tech Era Coding</a>
+                <input type="text" name="name" v-bind:value="name"><!-- using v-bind we can access dynamic value and bind them-->
+            <p v-html=websiteTag></p>
+            <a v-on:click.prevent="click" href="https://facebook.com/techeracoding">Click here</a>
 
         </div>
         <script src="app.js"></script>

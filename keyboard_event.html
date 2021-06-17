@@ -6,10 +6,10 @@
         <script src="https://unpkg.com/vue"></script>
     </head>
     <body>
-        <div id="keyboard-event">
+        <div  id="event-handle2">
                 <H1>Keyboard Event Handling</H1>
-                  Name  <input type="text" v-on:keyup="logName"/>
-                  <input type="text" v-on:keyup="logAge"/>
+                    <input type="text" v-on:keyup.enter="logName">
+                    <input type="text" v-on:keyup.enter="logEmail">
 
         </div>
 

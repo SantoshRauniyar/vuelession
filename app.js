@@ -40,19 +40,19 @@ new Vue({
 });
 
 new Vue({
-        el:'#keyboard-event',
-        data:{
-
-        },
-    method:{
-
+    el:'#event-handle2',
+    data:{
+        age:10,
+        x:0,
+        y:0
+    },
+    methods:{
         logName:function(){
-            console.log('You Entered Your name');
+            console.log('You are enter name');
         },
-        logAge:function(){
-                console.log('You entered your age');
+        logEmail:function(){
+
+            console.log('entered Email');
         }
-
     }
-
 });

@@ -44,7 +44,8 @@ new Vue({
     data:{
         age:10,
         x:0,
-        y:0
+        y:0,
+        newName:''
     },
     methods:{
         logName:function(){
